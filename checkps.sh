@@ -9,5 +9,5 @@ if [ "$PID" = "0" ]; then
 else
   echo "cysic启动着"
 fi
-sleep 1800
+sleep 60
 done
