@@ -5,7 +5,7 @@ echo $PID
 #if[ $PID="" ]; then
 if [ "$PID" = "0" ]; then
   echo "cysic没启动"
-  /root/cysic-verifier/run.sh
+  cd /root/cysic-verifier && ./run.sh
 else
   echo "cysic启动着"
 fi
